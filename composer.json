@@ -1,0 +1,22 @@
+{
+    "name": "walnut/lib_viewrenderer",
+    "authors": [
+        {
+            "name": "Marian Kostadinov",
+            "email": "manchokapitancho@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Walnut\\Lib\\ViewRenderer\\": "src/"
+		}
+	},
+	"require": {
+		"walnut/lib_httpmapper": "^0.0.7",
+		"walnut/lib_templaterenderer": "dev-master"
+	},
+	"require-dev": {
+		"vimeo/psalm": "^4.23.0",
+		"phpunit/phpunit": "^9.5.20"
+	}
+}
